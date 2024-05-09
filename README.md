@@ -176,3 +176,92 @@ $$
 | UCSB | ![dataset_samples_ucsb4](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/ed88cf0a-54c2-4441-b719-146a9d323f78) |
 | Yellowstone | ![dataset_samples_yellowstone](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/2c8ebb37-8e75-410f-b66f-2d504096cea7) |
 | Rio | ![dataset_samples_rio](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/a335d043-6049-406f-ba72-36ed31f5862f) |
+
+# Some basic markdown syntax
+
+## Emphasis
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+## Lists
+### Unordered
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+
+### Ordered
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
+
+## Code
+`This is inline code`
+
+### Code Blocks
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+## Tables
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Row 1 Col 1 | Row 1 Col 2 |
+| Row 2 Col 1 | Row 2 Col 2 |
+
+## Blockquotes
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+## Horizontal Rules
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+## Escaping Characters
+\*This text is not italic*\, and \*\*this text is not bold\*\*.
+
+## Task Lists
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+## Footnotes
+Here's a simple footnote,[^1] and here's a longer one.[^longnote]
+
+[^1]: This is the first footnote.
+[^longnote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+## Strikethrough
+~~This was a mistake.~~
+
+
+
+
