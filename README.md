@@ -106,6 +106,109 @@ Here's a simple footnote,[^1] and here's a longer one.[^longnote]
 ## Strikethrough
 ~~This was a mistake.~~
 
+# LaTeX Examples README
+
+This README file provides a collection of LaTeX examples that can be used in markdown documents to display mathematical expressions, equations, and more. LaTeX is a powerful tool for typesetting complex mathematical formulas and symbols.
+
+## Table of Contents
+
+- [Introduction to LaTeX](#introduction-to-latex)
+- [Basic Syntax](#basic-syntax)
+- [Mathematical Expressions](#mathematical-expressions)
+  - [Inline Expressions](#inline-expressions)
+  - [Display Expressions](#display-expressions)
+- [Equations](#equations)
+  - [Numbered Equations](#numbered-equations)
+  - [Aligned Equations](#aligned-equations)
+- [Symbols](#symbols)
+  - [Greek Letters](#greek-letters)
+  - [Operators](#operators)
+- [Matrices](#matrices)
+
+## Introduction to LaTeX
+
+LaTeX is a typesetting system commonly used for technical and scientific documents. It is especially useful for typesetting mathematical formulas and equations.
+
+## Basic Syntax
+
+LaTeX expressions can be included in markdown files by enclosing them in dollar signs (`$`). For inline expressions, use a single dollar sign (`$expression$`), and for display expressions, use double dollar signs (`$$expression$$`).
+
+## Mathematical Expressions
+
+### Inline Expressions
+
+To include a mathematical expression within a paragraph, use single dollar signs.
+
+Example: The formula for the area of a circle is $A = \pi r^2$.
+
+### Display Expressions
+
+For expressions that should be displayed on their own line, use double dollar signs.
+
+Example:
+
+$$
+E = mc^2
+$$
+
+## Equations
+
+### Numbered Equations
+
+LaTeX in markdown does not traditionally support automatic numbering. However, for demonstration, equations are usually not numbered in markdown documents.
+
+### Aligned Equations
+
+You can align equations for better readability.
+
+Example:
+
+$$
+\begin{align}
+a &= b + c \\
+x &= y - z
+\end{align}
+$$
+
+## Symbols
+
+### Greek Letters
+
+To include Greek letters, use their LaTeX commands.
+
+Example: $\alpha, \beta, \gamma, \Delta$
+
+### Operators
+
+Mathematical operators are also available.
+
+Summation example: $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$
+
+## Matrices
+
+You can display matrices using the `matrix` environment.
+
+Example:
+
+$$
+\begin{matrix}
+a & b \\
+c & d
+\end{matrix}
+$$
+
+---
+
+# g3305096 images rendering issue
+| Type | Images |
+| --- | --- |
+| CMU | ![dataset_samples_CMU0](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/52abe23a-b44f-4891-9712-6a0bc3ab324e) |
+| Grand Canyon | ![dataset_samples_grandcanyon](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/7f24d1ce-4b4c-4107-b2c3-46ebd2e33575) |
+| Shanghai | ![dataset_samples_shanghai](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/6c6f57a5-ae1d-467b-9245-5da3eaa3a742) |
+| UCSB | ![dataset_samples_ucsb4](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/ed88cf0a-54c2-4441-b719-146a9d323f78) |
+| Yellowstone | ![dataset_samples_yellowstone](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/2c8ebb37-8e75-410f-b66f-2d504096cea7) |
+| Rio | ![dataset_samples_rio](https://github.com/preethamam/AutomaticPanoramicImageStitching-AutoPanoStitch/assets/28588878/a335d043-6049-406f-ba72-36ed31f5862f) |
+
 ## Test for badges
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/FSDA)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/UniprJRC/FSDA)](https://github.com/UniprJRC/FSDA/releases/latest)
