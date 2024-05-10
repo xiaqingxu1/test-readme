@@ -1,18 +1,28 @@
 # stress-test-README
 Testing the capability of markdown-it & 
 
-## test PDF
-[test pdf.pdf](https://github.com/leehsihaumw/test-readme/files/15275556/test.pdf.pdf)
+## video
+https://github.com/leehsihaumw/test-readme/assets/151086072/dd1d000f-f6cb-439f-bad6-d653fcac2c2a
 
 ## test GIF
 ![giphy](https://github.com/leehsihaumw/test-readme/assets/151086072/9cb82a73-886f-4bb9-8e96-d5445d275811)
 
-## test JPG
-![henry-gt-dixon-sDuylE325TM-unsplash](https://github.com/leehsihaumw/test-readme/assets/151086072/eb377b1d-64a8-4031-b314-64b53aa058e6)
+## test JPEG (600x600)
+![square](https://github.com/leehsihaumw/test-readme/assets/151086072/029d55cd-fd87-46f9-ad70-7af65eab63d7)
 
 ## test svg
+![monitor-svgrepo-com](https://github.com/leehsihaumw/test-readme/assets/151086072/9bce38b4-a5a7-45cb-94c5-156fc8b4c781)
 
+## log files
+[test-example.log](https://github.com/leehsihaumw/test-readme/files/15279114/test-example.log)
 
+## test PDF
+[test pdf.pdf](https://github.com/leehsihaumw/test-readme/files/15275556/test.pdf.pdf)
+
+## test md
+[test-md.md](https://github.com/leehsihaumw/test-readme/files/15279186/test-md.md)
+
+## docx, pptx, xlsx, patch, zip are all rendered as links as above so those are not included.
 
 # Some basic markdown syntax
 
