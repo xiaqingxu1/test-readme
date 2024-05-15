@@ -1,8 +1,11 @@
 # stress-test-README
 Testing the capability of markdown-it & 
 
-## video
+## video (drag and drop to GitHub README editor)
 https://github.com/leehsihaumw/test-readme/assets/151086072/dd1d000f-f6cb-439f-bad6-d653fcac2c2a
+
+## video (drag and drop to GitHub repo and use the repo URL)
+https://github.com/leehsihaumw/test-readme/raw/main/1072815-hd_1920_1080_30fps.mp4
 
 ## test GIF
 ![giphy](https://github.com/leehsihaumw/test-readme/assets/151086072/9cb82a73-886f-4bb9-8e96-d5445d275811)
@@ -92,7 +95,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 </picture>
 
 ## diagrams
-This is likely unsupported as it requires a few 3P tools:
+*(This is likely unsupported as it requires a few 3P tools:)*
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams
 
 ### flow chart
@@ -105,6 +108,7 @@ graph TD;
 ```
 
 ## Tables
+
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Row 1 Col 1 | Row 1 Col 2 |
@@ -235,6 +239,7 @@ $$
 [![Testing Links](https://hacker.example.com/?u=https://github.com/UniprJRC/FSDA/actions/workflows/ci.yml/badge.svg)](https://www.google.com)
 
 ## Test for image resizing g2531455
+
 This repository is used to test g2531455 for readme rewriting for File Exchange submissions.
 
 Adding this line to see if I can update from Git on MATLAB Desktop
