@@ -16,6 +16,9 @@ https://github.com/leehsihaumw/test-readme/raw/main/1072815-hd_1920_1080_30fps.m
 ## test svg
 ![monitor-svgrepo-com](https://github.com/leehsihaumw/test-readme/assets/151086072/9bce38b4-a5a7-45cb-94c5-156fc8b4c781)
 
+## test relative path
+![Yosemite](/Images/Yosemite.png)
+
 ## log files
 [test-example.log](https://github.com/leehsihaumw/test-readme/files/15279114/test-example.log)
 
