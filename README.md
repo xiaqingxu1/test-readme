@@ -193,7 +193,7 @@ $$
 ### Aligned Equations
 $$
 \begin{align}
-a &= b + c \\
+a &= b + c \\\\
 x &= y - z
 \end{align}
 $$
@@ -209,7 +209,7 @@ Summation example: $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$
 ## Matrices
 $$
 \begin{matrix}
-a & b \\
+a & b \\\\
 c & d
 \end{matrix}
 $$
