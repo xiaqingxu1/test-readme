@@ -1,4 +1,4 @@
-# Example Markdown File with LaTeX
+# Markdown File with LaTeX
 
 ## Introduction
 
